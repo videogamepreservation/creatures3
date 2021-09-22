@@ -1,0 +1,36 @@
+
+
+Assorted date and time functions moved out into TimeFuncs.h/TimeFuncs.cpp
+
+
+
+
+---------------------------------------------------------------------
+ANSI requires that you provide an explict cast when assigning to
+a pointer type from a void*.
+
+---------------------------------------------------------------------
+int32 is not automatically cast to int. eg:
+
+int32 x=5,y=10;
+Vector2D v(x,y);
+
+gcc isn't sure if you want to use Vector2D(int,int) or Vector2D(float,float).
+
+
+
+---------------------------------------------------------------------
+Assumption of dos-style paths (ie using \ instead of / ).
+
+
+
+---------------------------------------------------------------------
+
+Later versions of g++ (I.E. X-mas '99 onward are very strict with regard
+to const references for some reason - this is a pervasive change)
+
+--------------------------------------------------------------------
+
+I have added -lSDL and -lpthread to the LIBS line of the makefile
+These are needed for SDL code (SDL for libSDL - and that needs pthreads)
+

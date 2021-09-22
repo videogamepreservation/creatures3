@@ -1,0 +1,189 @@
+# System.catalogue
+#
+# Catalogue file - Error messages used by SYSTEM subsystem
+#
+# Created 29Apr99 Francis
+
+#TRANSLATOR'S NOTE - please consult Creatures Adventures system text for many entries
+
+
+TAG "system_title"
+"Motor de Creatures"
+"Motor"
+"Eliminación automática activada"
+
+TAG "display_engine"
+"El motor de visualización puede pararse debido a que no se ha creado el siguiente archivo de fondo:\n%s"
+"La siguiente galería de elementos de animación no se ha creado:\n%s"
+"No se ha encontrado la siguiente galería de elementos de animación:\n%s"
+"El motor de visualización ha detectado un error. Puede tratarse de la repercusión de un error anterior de naturaleza más general. Por favor, arranca de nuevo el motor."
+"Se ha detectado un error durante el trazado en segundo plano; por favor, arranca de nuevo el motor."
+"Se ha detectado un error durante el trazado de los elementos de animación; por favor, arranca de nuevo el motor."
+"El directorio Images no está en el registro."
+"¡No has especificado el nombre de la galería!"
+"Convirtiendo los gráficos que hay en "
+"El juego no ha podido ponerse en funcionamiento debido a un error relacionado con DirectDraw."
+"No ha podido crearse la siguiente galería de elementos de animación:\n%s\nPuede que esto cause problemas posteriores."
+"No se ha encontrado la siguiente galería de elementos de animación:\n%s"
+"La siguiente galería de elementos de animación es un archivo de tipo desconocido:\n%s"
+"No se ha creado MapImage."
+"Falta la galería de elementos de animación  %s."
+"No se ha especificado ninguna galería de elementos de animación."
+"El archivo denominado 'CreatureGallery', situado en la carpeta principal, está dañado. Por favor, bórralo y vuelve a arrancar el motor."
+"No se ha podido crear la cámara remota debido a un fallo de DirectDraw."
+"Atención: el archivo %s contiene mapas de bits de menos de %d por %d, lo que dará lugar a problemas en el motor de las leyes físicas si el agente tiene atributos físicos."
+"Se ha establecido una postura inicial no válida %d para la galería de elementos de animación %s."
+"Creatures 3 no puede continuar: cambia la configuración de la pantalla a color de alta densidad (16 bits)."
+"Para evitar daños en la pantalla en el modo de ventana, cambia la configuración de la pantalla a color de alta densidad (16 bits)."
+
+TAG "gallery_error"
+"Se ha intentado salir del rango de elementos de animación disponible."
+"Atención: el siguiente archivo está vacío: %s"
+"El archivo de elementos de animación %s tiene un formato incorrecto. ¡Tiene la extensión C16 cuando debería ser S16!"
+
+TAG "map_error"
+"No se ha podido mover el agente en el mapa."
+
+TAG "file_error"
+"Comprueba que existe este archivo:\n%s\nAsegúrate también de que no está protegido contra escritura."
+"Identificador de archivo en uso"
+"Comprueba que el siguiente archivo existe y que no está protegido contra escritura:\n%s\n%s"
+"El siguiente archivo está vacío:\n%s"
+"Ha surgido un problema al crear el siguiente archivo:\n%s\n%s"
+"Error del archivo asignado a memoria\n%s"
+
+TAG "app_error"
+"Aparentemente, Creatures 3 ya está ejecutándose.\nSi estás seguro de que no es así, espera un poco e inténtalo de nuevo.\nSi el problema persiste, prueba reiniciando el sistema."
+"Error al escribir en el archivo utilizado por la herramienta CAOS\n%s"
+
+TAG "app_cd_needed"
+"Para jugar, el disco de Creatures 3 debe estar en la unidad de CD-ROM.\nIntroduce el CD-ROM de Creatures 3 e inténtalo de nuevo."
+
+TAG "app_insufficient_disk_space"
+"¡Atención!\n\nNo hay suficiente espacio libre en el disco para ejecutar con seguridad Creatures 3.\nSe necesitan 75 Mb de espacio libre en la unidad principal del sistema y en la\nunidad en la que está instalado el juego.\n\n¿Deseas ejecutar el juego de todas formas?"
+
+TAG "window_error"
+"Fallo al registrar la clase ventana"
+"No se ha podido crear la ventana principal."
+"No se ha podido crear la interfaz externa.\nCierra todos los programas que puedan interactuar con el juego\ne inténtalo de nuevo. Si no soluciona el problema, reinicia el sistema."
+"No se ha podido crear el subproceso del servidor."
+"Error de interrupción de MultiMedia Timer"
+"No se ha podido poner en funcionamiento MultiMedia Timer."
+"No se ha podido iniciar el subproceso del ticker."
+
+TAG "runtime_error"
+"&Desestimar a pesar de las consecuencias"
+"&Congelar agente"
+"&Eliminar agente"
+"&Acercar la cámara al agente"
+"El tiempo de ejecución del agente se ha agotado."
+"Identificación única"
+"Detener &juego"
+"secuencia de comandos"
+"Detener &secuencia de comandos"
+
+TAG "runtime_error_log"
+"\nSe ha superado el tiempo de ejecución del agente:"
+"Acción: congelar agente"
+"Acción: eliminar agente"
+"Acción: detener juego"
+"Acción: desestimar"
+"Acción: eliminación automática"
+"Acción: detener secuencia de comandos"
+
+TAG "script_error"
+"Aceptar"
+"No se ha podido instalar la secuencia de comandos "
+" en\nel scriptorium (quizá esté en uso una secuencia caducada)."   #TRANSLATOR'S NOTE - DO NOT translate the word scriptorium
+"RECICLADO"
+"%s"
+"Error: el formato correcto es \"scrp <familia> <género> <especie> <acción>\""
+"Error al repetir una petición"
+
+TAG "sound_error"
+"El siguiente archivo no existe:\n%s"
+"¡No se han podido modificar todos los archivos! No se ha encontrado:\n%s"
+"Desconocido"
+"¿Se están utilizando ya los recursos?"
+"El formato Wav no es compatible."
+"Parámetro no válido"
+"¿Sin agregación?"
+"No hay suficiente memoria."
+"No se ha podido crear el objeto de Direct Sound."
+"No se ha podido establecer el nivel de cooperación en Direct Sound."
+"No se ha podido crear el búfer principal de Direct Sound."
+"No se ha podido cambiar el búfer principal de Direct Sound al nuevo formato."
+
+TAG "archive_error"
+"Se ha escrito una referencia de coma flotante antes de la coma flotante."
+"Se ha leído una referencia de coma flotante antes de la coma flotante."
+"Fin inesperado de la entrada de datos"
+"Excepción desconocida durante la escritura del archivo"
+"Excepción desconocida durante la lectura del archivo"
+"Se ha escrito una referencia de coma flotante dos veces."
+"Se está intentando leer un archivo escrito con una versión incompatible del programa."
+"Se está intentando guardar un mundo cuando aún no se ha cargado ninguno."
+"Error al borrar el mundo"
+"Índice de mundos no válido"
+"Se va a proceder a leer el mundo de la copia de seguridad"
+"Error interno. Se ha intentado cargar los datos dos veces"
+
+TAG "creature_error"
+"No se ha podido expresar el genoma de la criatura\n%s"
+"Especifica el mismo número de \"categorías de agentes\"\nque de \"clasificadores de agentes\" en el catálogo."
+
+TAG "genome_error"
+"No se ha encontrado el siguiente archivo de genoma:\n%s"
+"No se ha podido cargar el siguiente archivo de genoma:\n%s"
+"No se ha podido escribir en el siguiente archivo de genoma:\n%s"
+"Fallo de inicialización del genoma:\n%s (%s)"
+"Cero neuronas en el lóbulo"
+"Demasiadas neuronas en el lóbulo"
+"Conexión al lóbulo no válida"
+"No se han especificado neuronas para conectar con"
+"Las conexiones no están limitadas de ninguna forma."
+"No se pueden limitar ambas conexiones para las dentritas migratorias."
+"El número de conexiones para las dentritas no migratorias no puede ser cero."
+"No se ha podido leer el lóbulo de la corriente."
+"No se ha podido leer el tracto de la corriente."
+
+TAG "genome_too_long_gene"
+"Tipo de gen inesperadamente largo durante el cruce (%d de largo, %d máx)"
+
+TAG "genome_old_dna"
+"Creatures 3 sólo puede cargar el ADN de los antiguos shee, de la época en que abandonaron Albia. Ningún otro ADN funciona."
+
+TAG "control_break"
+"Esa acción desactivará el motor de Creatures\nsin guardar ningún cambio."
+
+TAG "unexpected_suicide"
+"Un agente se ha autoeliminado, pero nadie se ha dado cuenta.\nInforma al departamento de servicios sociales de Creature Labs."
+
+TAG "agent_profiler"
+"Tictacs del perfil"
+"PACE medio"
+"Media total del tiempo empleado en actualizaciones de agentes"
+
+TAG "agent_profiler_columns"
+"Clasificador"
+"Actualizaciones"
+"Cuenta de agentes" # Updates / Profile Tick
+"Tiempo / por agente" # Time / Update
+"Tiempo / todos los agentes" # Time / Profile Tick
+
+TAG "invalid_map_error"
+"Posición del mapa no válida debido a un cambio en el recuadro de contorno...\nRecuadro de contorno anterior:\t%d x %d\nRecuadro de contorno actual:\t\t%d x %d\n"
+
+TAG "Pray System File Extensions"
+"creature"
+"agent"
+"agents"
+"blueprint"
+"family"
+
+TAG "creature_head_sprite_out_of_range"
+"Se ha intentado pasar al elemento de animación de cabezas %d del índice, cuando sólo se han leído %d.\nExpresión normal."
+"Se ha intentado pasar al elemento de animación de cabezas %d del índice, cuando sólo se han leído %d.\nExpresión desplazada: %d, Expression: %d, SetSize: %d, Eyes: %d, Eye offset: %d, My view: %d"    #TRANSLATOR'S NOTE - please translate only up to and including the words Expression offset
+
+TAG "memory_out"
+"Falta memoria; reinicia el sistema, libera espacio en la unidad del sistema y ejecuta de nuevo Creatures 3."

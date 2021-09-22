@@ -1,0 +1,189 @@
+# System.catalogue
+#
+# Catalogue file - Error messages used by SYSTEM subsystem
+#
+# Created 29Apr99 Francis
+
+#TRANSLATOR'S NOTE - please consult Creatures Adventures system text for many entries
+
+
+TAG "system_title"
+"Motore di Creatures"
+"Motore"
+"Autoalimentazione attivata"
+
+TAG "display_engine"
+"Il programma di visualizzazione potrebbe chiudersi perché il seguente file di sfondo non è stato creato:\n%s"
+"La seguente galleria di sprite non è stata creata:\n%s"
+"Impossibile trovare la seguente galleria di sprite:\n%s"
+"È stato rilevato un errore dal programma di visualizzazione. Potrebbe trattarsi di un effetto a catena causato da un precedente errore più generale. Riavviare il motore."
+"Si è verificato un errore durante la realizzazione dello sfondo. Riavviare il motore."
+"Si è verificato un errore durante la realizzazione degli sprite. Riavviare il motore."
+"Nessuna voce di registro per la directory Images."
+"Non è stato fornito alcun nome di galleria!"
+"Conversione della grafica in"
+"Impossibile avviare il gioco a causa di un errore di DirectDraw."
+"La seguente galleria di sprite non è stata creata:\n%s\nPotranno verificarsi problemi in seguito."
+"Impossibile trovare la seguente galleria di sprite:\n%s"
+"La seguente galleria di sprite è un tipo di file sconosciuto:\n%s"
+"MapImage non creata"
+"Manca la galleria di sprite %s"
+"Galleria sprite non specificata"
+"Il file 'CreatureGallery' nella directory principale è danneggiato; eliminarlo prima di riavviare il motore."
+"Impossibile creare la visuale remota a causa di un errore di DirectDraw."
+"Avviso: il seguente file %s possiede bitmap meno di %d per %d. Ciò potra causare problemi con il motore fisico se l'agente possiede attributi fisici."
+"È stata impostata un'immagine base non valida %d per la seguente galleria di sprite %s"
+"Creatures 3 non può continuare: cambia le impostazioni di visualizzazione su '65.536 colori (16 bit)'"
+"Per evitare di danneggiare lo schermo nella modalità a finestra, cambia le impostazioni di visualizzazione su '65.536 colori (16 bit)'"
+
+TAG "gallery_error"
+"Si è tentato di accedere a uno sprite non presente nell'intervallo"
+"Avviso: il seguente file %s è vuoto"
+"Il seguente file %s ha un formato non corretto per un file di sprite S16. Il formato corretto dovrebbe essere C16!"
+
+TAG "map_error"
+"Impossibile spostare agente sulla mappa."
+
+TAG "file_error"
+"Assicurarsi che il seguente file esista:\n%s\nPotrebbe anche essere necessario che sia scrivibile."
+"Handle di file in uso"
+"Assicurarsi che il seguente file esista e sia scrivibile:\n%s\n%s"
+"Il seguente file ha lunghezza zero:\n%s"
+"Si è verificato un problema durante la creazione del seguente file:\n%s\n%s"
+"Errore file memory-mapped\n%s"
+
+TAG "app_error"
+"Creatures 3 sembra essere già in esecuzione.\nIn caso contrario, aspetta un attimo e riprova.\nSe il problema persiste, prova a riavviare."
+"Errore di scrittura del file usato dallo strumento CAOS\n%s"
+
+TAG "app_cd_needed"
+"Per giocare, il disco di Creatures 3 deve rimanere inserito nell'unità CD-ROM.\nInserisci il CD-ROM di Creatures 3 e riprova."
+
+TAG "app_insufficient_disk_space"
+"Attenzione!\n\nNon c'è abbastanza spazio libero sul disco rigido per eseguire Creatures 3.\nSono necessari 75 Mb liberi sull'unità di sistema principale e\nsull'unità in cui è stato installato il gioco.\n\nEseguire comunque il gioco?"
+
+TAG "window_error"
+"Impossibile registrare la classe della finestra."
+"Impossibile creare finestra principale."
+"Impossibile creare interfaccia esterna.\nChiudi i programmi che comunicano con il gioco\ne riprova. Se il problema persiste, riavvia."
+"Impossibile creare thread del server"
+"Errore di soppressione di MultiMedia Timer"
+"Impossibile avviare MultiMedia Timer"
+"Impossibile avviare thread del testo scorrevole"
+
+TAG "runtime_error"
+"&Ignora"
+"&Blocca agente"
+"&Elimina agente"
+"&Sposta visuale su agente"
+"Errore di run-time in agente "
+"ID unico"
+"&Pausa"
+"script"
+"I&nterrompi script"
+
+TAG "runtime_error_log"
+"\nErrore di run-time nell'agente:"
+"Azione: Blocca agente"
+"Azione: Elimina agente"
+"Azione: Pausa"
+"Azione: Ignora"
+"Azione: Autoelimina"
+"Azione: Interrompi script"
+
+TAG "script_error"
+"OK"
+"Impossibile installare script "
+" nello \nscriptorium (vecchio script in uso?)"   #TRANSLATOR'S NOTE - DO NOT translate the word scriptorium
+"RECYCLED"
+"%s"
+"Errore: il formato corretto è \"scrp <famiglia> <genere> <specie> <evento>\""
+"Reimmissione di richiesta inaspettata"
+
+TAG "sound_error"
+"Il seguente file non esiste:\n%s"
+"Non tutti i file sono stati modificati! Impossibile trovare:\n%s"
+"Sconosciuto"
+"Risorse già in uso?"
+"Formato wave non supportato"
+"Parametro non valido"
+"Nessuna aggregazione?"
+"Memoria insufficiente"
+"Impossibile creare oggetto Direct Sound"
+"Impossibile impostare il livello di cooperazione di Direct Sound"
+"Buffer primario Direct Sound non creato"
+"Impossibile impostare buffer primario Direct Sound nel nuovo formato."
+
+TAG "archive_error"
+"Float reference written before float"
+"Float reference read before float"
+"Interruzione input inaspettata"
+"Errore inaspettato durante la scrittura dell'archivio."
+"Errore inaspettato durante la lettura dell'archivio."
+"Riferimento numero in virgola mobile scritto due volte"
+"Tentativo di lettura di un archivio scritto da una versione incompatibile del programma."
+"Tentativo di salvare un mondo prima di averne caricato uno."
+"Errore durante eliminazione mondo"
+"Indice mondi non valido"
+"Il mondo di backup verrà ora letto."
+"Errore interno: tentativo di caricare due volte"
+
+TAG "creature_error"
+"Impossibile esprimere il genoma della creatura\n%s"
+"Specificare lo stesso numero di \"Categorie agenti\"\ndi \"Classificatori agenti\" nel catalogo."
+
+TAG "genome_error"
+"Impossibile trovare il seguente file di genoma:\n%s"
+"Impossibile caricare il seguente file di genoma:\n%s"
+"Impossibile scrivere il seguente file di genoma:\n%s"
+"Inizializzazione genoma non riuscita:\n%s (%s)"
+"Nessun neurone nel lobo"
+"Troppi neuroni nel lobo"
+"Connessione al lobo non valida"
+"Nessun neurone a cui connettersi"
+"Le connessioni sono del tutto svincolate"
+"Entrambe le connessioni non possono essere vincolate per i dendriti migranti"
+"Il numero delle connessioni non può essere zero per i dentriti non migranti"
+"Failed to read lobe from stream."
+"Failed to read tract from stream."
+
+TAG "genome_too_long_gene"
+"Tipo di gene inaspettatamente lungo durante il crossing-over (%d lunghezza, %d max)"
+
+TAG "genome_old_dna"
+"Creatures 3 può caricare solo il DNA degli antichi Shee dal tempo in cui hanno lasciato Albia. Tutti gli altri DNA non funzioneranno."
+
+TAG "control_break"
+"Questa operazione chiuderà il motore di Creatures 3\nsenza salvare alcuna modifica."
+
+TAG "unexpected_suicide"
+"Un agente si è suicidato, ma nessuno se n'è accorto.\nInforma il reparto servizi sociali di Creature Labs."
+
+TAG "agent_profiler"
+"Tick del profilo"
+"PACE medio"
+"Tempo medio complessivo dedicato all'aggiornamento agenti"
+
+TAG "agent_profiler_columns"
+"Classificatore"
+"Aggiornamenti"
+"Conteggio agenti" # Updates / Profile Tick
+"Tempo / Agenti singoli" # Time / Update
+"Tempo / Tutti gli agenti" # Time / Profile Tick
+
+TAG "invalid_map_error"
+"Posizione mappa non valida a causa di modifica del riquadro...\nRiquadro precedente:\t%d x %d\nRiquadro attuale:\t\t%d x %d\n"
+
+TAG "Pray System File Extensions"
+"creature"
+"agent"
+"agents"
+"blueprint"
+"family"
+
+TAG "creature_head_sprite_out_of_range"
+"Si è tentato di passare allo sprite di indice %d quando solo %d erano stati letti.\nEspressione normale."
+"Si è tentato di passare allo sprite di indice %d quando solo %d erano stati letti.\nEspressione offset: %d, Expression: %d, SetSize: %d, Eyes: %d, Eye offset: %d, My view: %d"    #TRANSLATOR'S NOTE - please translate only up to and including the words Expression offset
+
+TAG "memory_out"
+"Memoria esaurita. Riavvia, crea un po' di spazio libero sull'unità di sistema ed esegui di nuovo Creatures 3."

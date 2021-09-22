@@ -1,0 +1,16 @@
+MidiModule.cpp
+MusicAction.cpp
+MusicAleotoricLayer.cpp
+MusicEffect.cpp
+MusicExpression.cpp
+MusicGlobals.cpp
+MusicLayer.cpp
+MusicLoopLayer.cpp
+MusicManager.cpp
+MusicScript.cpp
+MusicTimer.cpp
+MusicTrack.cpp
+MusicUpdatable.cpp
+MusicVariable.cpp
+MusicVariableContainer.cpp
+Soundlib.cpp

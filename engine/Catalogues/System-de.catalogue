@@ -1,0 +1,189 @@
+# System.catalogue
+#
+# Catalogue file - Error messages used by SYSTEM subsystem
+#
+# Created 29Apr99 Francis
+
+#TRANSLATOR'S NOTE - please consult Creatures Adventures system text for many entries
+
+
+TAG "system_title"
+"Creatures-Engine"
+"Engine"
+"Automatisches Eliminieren aktiviert"
+
+TAG "display_engine"
+"Die Anzeige-Engine wird möglicherweise geschlossen, da die folgende Hintergrund-Datei nicht gefunden wurde:\n%s"
+"Folgende Sprite-Galerie wurde nicht erstellt:\n%s"
+"Folgende Sprite-Galerie wurde nicht gefunden:\n%s"
+"Die Anzeige-Engine fand einen Fehler. Dies ist möglicherweise Folge eines zuvor aufgetretenen allgemeinen Fehlers. Starten Sie die Engine neu."
+"Beim Darstellen des Hintergrunds wurde ein Fehler gefunden. Starten Sie die Engine neu."
+"Beim Darstellen von Sprites trat ein Fehler auf. Starten Sie die Engine neu."
+"Es ist kein Registereintrag für das Bildverzeichnis vorhanden."
+"Sie haben die Galerie nicht benannt!"
+"Konvertierung der Grafiken in "
+"Infolge eines DirectDraw-Fehlers konnte das Spiel nicht gestartet werden."
+"Folgende Sprite-Galerie wurde nicht erstellt:\n%s\nDies führt später möglicherweise zu Problemen."
+"Folgende Sprite-Galerie wurde nicht gefunden:\n%s"
+"Folgende Sprite-Galerie hatte einen unbekannten Dateitypen:\n%s"
+"MapImage nicht erstellt"
+"Fehlende Sprite-Galerie %s"
+"Sprite-Galerie nicht spezifiziert"
+"Die Datei namens 'CreatureGallery' in Ihrem Hauptverzeichnis ist beschädigt. Löschen Sie sie, bevor Sie die Engine neu starten."
+"Infolge eines DirectDraw-Fehlers konnte die ferngesteuerte Kamera nicht erstellt werden."
+"Achtung: Die folgende Datei %s enthält Bitmaps mit Maßen unter %d x %d. Dies führt in der Physik-Engine zu Problemen, wenn der Agent Physik-Attribute hat."
+"Eine ungültige Grundpose %d wurde für folgende Sprite-Galerie eingestellt: %s"
+"Creatures 3 kann nicht fortfahren: Bitte ändern Sie die Einstellungen für Ihre Anzeige auf 'High Color (16 bit)'."
+"Zur Vermeidung von Bildschirmproblemen im Fenstermodus ändern Sie bitte die Einstellungen für Ihre Anzeige auf 'High Color (16 bit)'."
+
+TAG "gallery_error"
+"Versuch, auf Sprites außer Index-Reichweite zuzugreifen."
+"Achtung: Folgende Datei %s ist leer."
+"Die folgende Datei %s hat ein falsches Format. Eine S16-Sprite-Datei hält sich für eine C16!"
+
+TAG "map_error"
+"Konnte Agent auf Karte nicht bewegen"
+
+TAG "file_error"
+"Vergewissern Sie sich, daß folgende Datei existiert:\n%s\nSie sollte möglichst nicht schreibgeschützt sein."
+"Verwendete Dateizugriffsnummer"
+"Vergewissern Sie sich, daß folgende Datei existiert und der Schreibschutz deaktiviert ist:\n%s\n%s"
+"Folgende Datei hat die Länge Null:\n%s"
+"Problem beim Erstellen folgender Datei:\n%s\n%s"
+"Speicherzuordnungs-Dateifehler\n%s"
+
+TAG "app_error"
+"Creatures 3 ist bereits geöffnet.\nWenn das nicht der Fall ist, warten Sie einen Moment, und versuchen Sie es dann wieder.\nHilft auch das nicht, starten Sie den Computer neu."
+"Fehler beim Schreiben der vom CAOS-Tool verwendeten Datei\n%s"
+
+TAG "app_cd_needed"
+"Sie müssen die Creatures 3-CD in Ihr CD-ROM-Laufwerk einlegen, um spielen zu können.\nBitte legen Sie die Creatures 3-CD-ROM ein, und versuchen Sie es noch einmal."
+
+TAG "app_insufficient_disk_space"
+"Warnung!\n\nEs steht nicht genug Speicherplatz auf Ihrer Festplatte zur Verfügung, um Creatures 3 stabil auszuführen.\nSie brauchen sowohl 75 MB freien Speicherplatz auf Ihrem Haupt-Systemlaufwerk sowie auf dem\nLaufwerk, auf dem das Programm installiert ist.\n\nMöchten Sie das Spiel trotzdem starten?"
+
+TAG "window_error"
+"Fehler beim Registrieren der Fensterklasse"
+"Fehler beim Erstellen des Hauptfensters"
+"Fehler beim Erstellen des externen Interface.\nBeenden Sie alle Programme, die mit dem Spiel kommunizieren können,\nund versuchen Sie es erneut. Sollte dies fehlschlagen, starten Sie den Computer neu."
+"Fehler beim Erstellen eines Server-Threads"
+"Schwerer MultiMedia-Timer-Fehler"
+"Fehler beim Starten des MultiMedia Timers"
+"Fehler beim Starten des Ticker-Threads"
+
+TAG "runtime_error"
+"&Ignorieren"
+"Agent &anhalten"
+"Agent &eliminieren"
+"Kamera auf Agent &bewegen"
+"Agent-Laufzeitfehler "
+"eindeutige id"
+"Spiel-&Pause"
+"Skript"
+"Skript &stoppen"
+
+TAG "runtime_error_log"
+"\nAgent-Laufzeitfehler:"
+"Aktion: Agent anhalten"
+"Aktion: Agent eliminieren"
+"Aktion: Spiel-Pause"
+"Aktion: Ignorieren"
+"Aktion: Automatisches Eliminieren"
+"Action: Skript stoppen"
+
+TAG "script_error"
+"OK"
+"Skript konnte nicht "
+" ins \nSkriptorium installiert werden (Möglicherweise altes Skript verwendet?)"   #TRANSLATOR'S NOTE - DO NOT translate the word scriptorium
+"RECYCLED"
+"%s"
+"Fehler: Das korrekte Format ist \"scrp <Familie> <Gattung> <Spezies> <Ereignis>\""
+"Unerwartete Anfrage"
+
+TAG "sound_error"
+"Folgende Datei existiert nicht:\n%s"
+"Es konnten nicht alle Dateien bearbeitet werden!\n%konnte nicht gefunden werden"
+"Unbekannt"
+"Ressourcen bereits verwendet?"
+"Wave-Format nicht unterstützt"
+"Ungültiger Parameter"
+"Keine Aggregation?"
+"Nicht genug Speicher"
+"Direct Sound-Objekt konnte nicht erstellt werden"
+"Multi-Tasking in Direct Sound konnte nicht erstellt werden"
+"Primärer Direct Sound-Puffer nicht erstellt"
+"Primärer Direct Sound-Puffer konnte nicht auf neues Format eingestellt werden"
+
+TAG "archive_error"
+"Gleitkomma-Referenz vor dem Gleitkomma geschrieben"
+"Gleitkomma-Referenz vor dem Gleitkomma gelesen"
+"Unerwartetes Ende der Eingabe"
+"Unbekannter Ausnahmefehler beim Schreiben des Archivs"
+"Unbekannter Ausnahmefehler beim Lesen des Archivs"
+"Gleitkomma-Referenz doppelt geschrieben"
+"Es wird versucht, ein Archiv von einer nicht kompatiblen Version des Programms zu lesen"
+"Es wird versucht, eine Welt vor dem Laden zu speichern"
+"Fehler beim Löschen einer Welt"
+"Ungültiger Welt-Index"
+"Die Backup-Welt wird gelesen"
+"Interner Fehler: Zweimaliges Laden"
+
+TAG "creature_error"
+"Fehler beim Umwandeln des Genoms des Wesens\n%s"
+"Gleiche Anzahl von\"Agent-Kategorien\"\nund \"Agent-Klassen\" im Katalog angeben."
+
+TAG "genome_error"
+"Folgende Genom-Datei wurde nicht gefunden:\n%s"
+"Folgende Genom-Datei konnte nicht geladen werden:\n%s"
+"Folgende Genom-Datei konnte nicht geschrieben werden:\n%s"
+"Genom-Initialisierung fehlgeschlagen:\n%s (%s)"
+"Keine Neuronen im Gehirnlappen"
+"Zu viele Neuronen im Gehirnlappen"
+"Ungültige Verbindung zum Gehirnlappen"
+"Keine Neuronen zum Verbinden vorhanden"
+"Verbindungen völlig unbeschränkt"
+"Beide Verbindungen für freie Dendriten können nicht beschränkt werden"
+"Anzahl der Verbindungen für verbundene Dendriten kann nicht Null betragen"
+"Fehler beim Lesen des Gehirnlappens aus dem Strom."
+"Fehler beim Lesen des Gehirnlappens aus dem Trakt."
+
+TAG "genome_too_long_gene"
+"Unerwartet langer Gen-Typ beim Gen-Austausch (%d lang, %d max.)"
+
+TAG "genome_old_dna"
+"Creatures 3 kann nur uralte Shee-DNS aus der Zeit, als die Shee Albia verließen, laden. Alle anderen DNS funktionieren nicht."
+
+TAG "control_break"
+"Die Creatures-Engine wird beendet,\nohne Änderungen zu speichern."
+
+TAG "unexpected_suicide"
+"Ein Agent beging unbemerkt Selbstmord.\nLegen Sie in der Sozialabteilung der Creature Labs einen Bericht darüber vor."
+
+TAG "agent_profiler"
+"Profil-Ticks"
+"PACE-Durchschnitt"
+"Durchschnittliche Gesamtzeit für Agent-Aktualisierungen"
+
+TAG "agent_profiler_columns"
+"Klasse"
+"Aktualisierungen"
+"Agent-Zähler" # Updates / Profile Tick
+"Zeit/Jeder Agent" # Time / Update
+"Zeit/Alle Agenten" # Time / Profile Tick
+
+TAG "invalid_map_error"
+"Ungültige Kartenposition durch Änderung der Begrenzung...\nBegrenzung vorher:\t%d x %d\nBegrenzung jetzt:\t\t%d x %d\n"
+
+TAG "Pray System File Extensions"
+"creature"
+"agent"
+"agents"
+"blueprint"
+"family"
+
+TAG "creature_head_sprite_out_of_range"
+"Haupt-Sprite-Index %d wurde geändert, obwohl nur %d eingelesen wurden.\nAusdruck normal."
+"Haupt-Sprite-Index %d wurde geändert, obwohl nur %d eingelesen wurden.\nBeginn Ausdruck: %d, Expression: %d, SetSize: %d, Eyes: %d, Eye offset: %d, My view: %d"    #TRANSLATOR'S NOTE - please translate only up to and including the words Expression offset
+
+TAG "memory_out"
+"Der Speicher ist voll - bitte starten Sie das System neu, geben Sie Speicherplatz auf Ihrer Festplatte frei, und starten Sie Creatures 3 neu."

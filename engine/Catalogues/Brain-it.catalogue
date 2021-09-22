@@ -1,0 +1,162 @@
+# Brain.catalogue
+#
+# Catalogue file - Brain lobe neuron names.
+#
+# Created 22Mar99 gtb
+
+
+
+
+ARRAY "Brain Lobes" 12  #TRANSLATOR'S NOTE - DO NOT TRANSLATE WORDS IN THIS ARRAY
+"attention"
+"decision"
+"verb"
+
+"noun"
+"vision"
+"smell"
+
+"drive"
+"situation"
+"detail"
+
+"response"
+"proximity"
+"stim source"
+
+
+
+ARRAY "Brain Lobe Neuron Names" 12  #TRANSLATOR'S NOTE - DO NOT TRANSLATE WORDS IN THIS ARRAY
+"Agent Categories"
+"Creature Actions"
+"Creature Actions"
+
+"Agent Categories"
+"Agent Categories"
+"Agent Categories"
+
+"Creature Drives"
+"Situation Neurons"
+"Detail Neurons"
+
+"Creature Drives"
+"Creature Drives"
+"Agent Categories"
+
+
+ARRAY "Brain Output Lobes" 2  #TRANSLATOR'S NOTE - DO NOT TRANSLATE WORDS IN THIS ARRAY
+"attention"
+"decision"
+
+
+ARRAY "Brain Input Lobes" 9  #TRANSLATOR'S NOTE - DO NOT TRANSLATE WORDS IN THIS ARRAY
+"verb"
+"noun"
+"vision"
+"smell"
+"drive"
+"situation"
+"detail"
+"response"
+"proximity"
+
+
+ARRAY "Brain Lobe Quads" 12  #TRANSLATOR'S NOTE - DO NOT TRANSLATE WORDS IN THIS ARRAY
+"attn"
+"decn"
+"verb"
+"noun"
+"visn"
+"smel"
+"driv"
+"sitn"
+"detl"
+"resp"
+"prox"
+"stim"
+
+
+ARRAY "Creature Drives" 20 #TRANSLATOR'S NOTE - translate this one.please keep to the glossary
+"male"
+"fame di proteine" # protein
+"fame di amidi" # carbohydrate
+"fame di grassi" # fat
+"freddo"
+"caldo"
+"stanco"
+"sonno"
+"solo"
+"affollato"
+"impaurito"
+"annoiato"
+"arrabbiato"
+"amico"
+"nostalgia"
+"troppo in basso"
+"troppo in alto"
+"intrappolato"
+"intrappolato"
+"paziente"
+
+
+ARRAY "Creature Actions" 17   #TRANSLATOR'S NOTE - translate this one.please keep to the glossary
+"guardare"
+"spingere"
+"tirare"
+"disattivare"	
+"avvicinarsi"
+"allontanarsi"
+"prendere"
+"lasciare"
+"esprimere"
+"riposare"		
+"sinistra"
+"destra"
+"mangiare"
+"colpire"
+# not used:
+"su"
+"giù"
+"uscire"
+
+
+ARRAY "Situation Neurons" 9   #TRANSLATOR'S NOTE - DO NOT TRANSLATE WORDS IN THIS ARRAY
+"I am this old"
+"I am inside a vehicle"
+"I am carrying something"
+"I am being carried"
+
+"I am falling"
+"I am near a creature of the opposite sex any my genus"
+"I am musically at this mood"
+"I am musically at this threat level"
+
+"I am the selected norn"
+
+
+
+ARRAY "Detail Neurons" 11     #TRANSLATOR'S NOTE - DO NOT TRANSLATE WORDS IN THIS ARRAY
+"It is being carried by me"
+"It is being carried by someone else"
+"It is this close to me"
+
+"It is a creature"
+"It is my sibling"
+"It is my parent"
+"It is my child"
+"It is of opposite sex and my genus"
+
+"It is of this size"
+"It is smelling this much"
+"It is stopped"
+
+
+
+ARRAY "Migration Parameters" 2  #TRANSLATOR'S NOTE - DO NOT TRANSLATE WORDS IN THIS ARRAY
+"5"
+"7"
+
+ARRAY "Brain Parameters" 2   #TRANSLATOR'S NOTE - DO NOT TRANSLATE WORDS IN THIS ARRAY
+"213"
+"212"
+

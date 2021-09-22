@@ -1,0 +1,159 @@
+# Norn.catalogue
+#
+# Catalogue file - Norn vocab information
+#
+# Created 04 Apr 99 gtb
+# learnt words added 20 Aug 99 dkb
+
+
+ARRAY "Learnt Specials" 12
+"sì"			# posative reward/statement
+"no"			# negative punish
+"guardare"			# look
+"cosa"			# what
+"felice"			# personal state
+"piace"			# posative preferance
+"non piace"		# negative preference
+"ama"			# big posative preferance
+"odia"			# big negative preference
+"forse"			# unsure of decision
+"di certo"	# sure of decision
+"malato"			# sick
+
+ 
+ARRAY "Learnt Nice Drives" 20   #TRANSLATOR'S NOTE - for this array please use the comments to convey the meaning rather than straight translation of words
+"bene"	# not hurt
+"pieno"	# full of protein
+"pieno" 	# full of carbohydrate
+"pieno" 	# full of fat
+"a posto" 	# not cold              #TRANSLATOR'S NOTE - should reflect this, but not state warm specifically
+"bene" 	# not hot               #TRANSLATOR'S NOTE - same as above, but use a different word
+"attento"	# not tired
+"sveglio"	# not sleepy
+"contento"	# not lonely
+"sereno"	# not crowded
+"al sicuro"	# not scared
+"divertito"	# not bored
+"pacifico"	# not angry
+"silenzioso"	# not friendly
+"allegro"	# not home sick
+"tranquillo"	# not low down (the next four are random)
+"calmo"	# not high up
+"pacato"	# not trapped
+"quieto"	# not trapped 2
+"rilassato"	# not patient (but not impatient.. just something positive..)
+
+
+
+ARRAY "Learnt Qualifiers" 5
+"abbastanza"			
+"piuttosto"			
+"molto"		
+"estremamente"
+"enormemente"		
+
+ARRAY "Learnt Personals" 1
+"io"			#me 
+
+
+
+ARRAY "Default Norn Speak" 28      #TRANSLATOR'S NOTE - DO NOT TRANSLATE FROM THIS POINT TO END OF FILE
+"goo"				# verb
+"dis"				# noun
+"gaa"				# drive
+"ba"				# special (look yes no...)
+"vre"               # qualifier
+"em"				# "me"
+"gaa"				# nice drive
+
+"foo"				# verb
+"dat"				# noun
+"oogh"				# drive
+"coo"			    # special (look yes no...)
+"rly"               # qualifier
+"me"				# "me"
+"oogh"				# nice drive
+
+"flib"				# verb
+"bab"				# noun
+"bibble"			# drive
+"flub"				# special (look yes no...)
+"exmly"             # qualifier
+"eem"				# "me"
+"bibble"			# nice drive
+
+"doo"				# verb
+"daa"				# noun
+"boop"				# drive
+"na"				# special (look yes no...)
+"i"                 # qualifier
+"bub"				# "me"
+"boop"				# nice drive
+
+
+ARRAY "Default Grendel Speak" 28
+"grah"				# verb
+"narg"				# noun
+"graaaah"			# drive
+"grish"				# special (look yes no...)
+"g"					# qualifier
+"grndl"				# "me"
+"graaaah"			# nice drive
+
+"beh"				# verb
+"buh"				# noun
+"bleh"				# drive
+"bih"				# special (look yes no...)
+"bu"                # qualifier
+"beh"				# "me"
+"bleh"				# nice drive
+
+"urg"				# verb
+"arg"				# noun
+"oogle"				# drive
+"nug"				# special (look yes no...)
+"n"					# qualifier
+"ung"				# "me"
+"oogle"				# nice drive
+
+"urrh"				# verb
+"bilp"				# noun
+"narg"				# drive
+"flabber"			# special (look yes no...)
+"flr"				# qualifier
+"fig"				# "me"
+"narg"				# nice drive
+
+
+ARRAY "Default Ettin Speak" 28
+"hoo"				# verb
+"dus"				# noun
+"gaa"				# drive
+"du"				# special (look yes no...)
+"vre"				# qualifier
+"er"				# "me"
+"gaa"				# nice drive
+
+"foo"				# verb
+"dut"				# noun
+"oogh"				# drive
+"coo"			    # special (look yes no...)
+"rle"				# qualifier
+"me"				# "me"
+"oogh"				# nice drive
+
+"flub"				# verb
+"bub"				# noun
+"bibble"			# drive
+"fleb"				# special (look yes no...)
+"exmly"				# qualifier
+"eem"				# "me"
+"bibble"			# nice drive
+
+"doo"				# verb
+"daa"				# noun
+"buup"				# drive
+"nu"				# special (look yes no...)
+"u"					# qualifier
+"etn"				# "me"
+"buup"				# nice drive

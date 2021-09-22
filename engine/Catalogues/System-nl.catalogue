@@ -1,0 +1,189 @@
+# System.catalogue
+#
+# Catalogue file - Error messages used by SYSTEM subsystem
+#
+# Created 29Apr99 Francis
+
+#TRANSLATOR'S NOTE - please consult Creatures Adventures system text for many entries
+
+
+TAG "system_title"
+"Creatures Engine"
+"Engine"
+"Autokill geactiveerd"
+
+TAG "display_engine"
+"De display-engine kan afsluiten omdat het volgende achtergrondbestand niet werd aangemaakt:\n%s"
+"De volgende sprite-gallery werd niet aangemaakt:\n%s"
+"Kon de volgende sprite-gallery niet vinden:\n%s"
+"Er is een fout waargenomen door de display-engine. Dit kan het bij-effect zijn van een eerdere, meer algemene fout. Start de engine opnieuw."
+"Er is een fout waargenomen tijdens het tekenen op de achtergrond. Start de engine opnieuw"
+"Er is een fout waargenomen tijdens het tekenen van sprites. Start de engine opnieuw"
+"Er is geen register-entry voor de Images-directory"
+"U heeft geen gallery-naam gegeven!"
+"Converteren van graphics in "
+"Het spel kon niet worden gestart vanwege een direct draw fout."
+"De volgende sprite-gallery is niet aangemaakt:\n%s\nDit kan later problemen geven."
+"De volgende sprite-gallery niet gevonden:\n%s"
+"De volgende sprite-gallery was van een onbekend bestandstype:\n%s"
+"MapImage niet aangemaakt"
+"Sprite-gallery %s ontbreekt"
+"Sprite-gallery niet gedefinieerd"
+"Het bestand 'CreatureGallery' in uw hoofddirectory is corrupt. Wis het voordat u de engine opnieuw start."
+"De camera op afstand kon niet worden aangemaakt vanwege een probleem met direct draw"
+"Waarschuwing: het bestand %s heeft bitmaps van minder dan %d bij %d. Dit kan problemen geven in de physics-engine als de agent physics-attributen heeft."
+"Er is een ongeldige basispositie %d ingesteld voor de sprite-gallery %s"
+"Creatures 3 kan niet verder: zet uw beeldinstelling op 'hoge kleuren (16 bit)'"
+"Om corruptie in venstermode te voorkomen, uw beeldinstelling instellen op 'hoge kleuren (16 bit)'"
+
+TAG "gallery_error"
+"Poging tot ophalen van sprite buiten bereik"
+"Waarschuwing: het bestand %s is leeg"
+"Het bestand %s heeft een onjuist formaat, de S16-sprite wordt gezien als een C16!"
+
+TAG "map_error"
+"Kon agent niet op kaart verplaatsen"
+
+TAG "file_error"
+"Controleer of het volgende bestand bestaat:\n%s\nDit bestand moet ook beschrijfbaar zijn"
+"Bestandshandle in gebruik"
+"Controleer of het volgende bestand bestaat en beschrijfbaar is:\n%s\n%s"
+"Het volgende bestand heeft een grootte van nul:\n%s"
+"Probleem bij het aanmaken van het volgende bestand:\n%s\n%s"
+"Bestandsfout geheugenmap\n%s"
+
+TAG "app_error"
+"Creatures 3 lijkt al te draaien.\nAls dit niet duidelijk het geval is, wacht dan even en probeer het opnieuw.\nAls dat niet werkt, start dan opnieuw op."
+"Fout bij het schrijven van het bestand dat door de CAOS-tool wordt gebruikt\n%s"
+
+TAG "app_cd_needed"
+"De CD van Creatures 3 moet in het CD-ROM-station zitten om te kunnen spelen.\nPlaats de CD-ROM voor Creatures en probeer het opnieuw."
+
+TAG "app_insufficient_disk_space"
+"Waarschuwing!\n\nEr is onvoldoende vrije schijfruimte om Creatures 3 veilig uit te voeren.\nEr moet 75Mb vrij zijn op het hoofdstation van het systeem en op het\nstation waar u het spel geïnstalleerd heeft.\n\nWilt u het spel toch uitvoeren?"
+
+TAG "window_error"
+"Fout bij het registreren van windows-klasse"
+"Fout bij het aanmaken van het hoofdvenster"
+"Kon geen externe interface aanmaken.\nSluit alle programma's die met het spel communiceren\nen probeer het opnieuw. Als dat niet werkt, start dan opnieuw op."
+"Kon geen server-thread maken"
+"MultiMedia Timer killfout"
+"Fout bij het starten van MultiMedia Timer"
+"Fout bij het starten van Ticker Thread"
+
+TAG "runtime_error"
+"Onvoorwaardelijk &negeren"
+"Agent &stilzetten"
+"Agent &verwijderen"
+"&Camera naar agent verplaatsen"
+"Uitvoerfout in agent "
+"unieke id"
+"Spel &pauzeren"
+"script"
+"Script &stoppen"
+
+TAG "runtime_error_log"
+"\nUitvoerfout agent:"
+"Actie: Agent stilzetten"
+"Actie: Agent verwijderen"
+"Actie: Spel pauzeren"
+"Actie: Negeren"
+"Actie: Automatisch verwijderen"
+"Actie: Script stoppen"
+
+TAG "script_error"
+"OK"
+"Kon script niet installeren "
+" in \nscriptorium (is er een oud script in gebruik?)"   #TRANSLATOR'S NOTE - DO NOT translate the word scriptorium
+"RECYCLED"
+"%s"
+"Fout: Correct formaat is \"scrp <familie> <genus> <soort> <gebeurtenis>\""
+"Onverwacht nieuw verzoek"
+
+TAG "sound_error"
+"Het volgende bestand bestaat niet:\n%s"
+"Niet alle bestanden konden worden bewerkt! Kon niet vinden:\n%s"
+"Onbekend"
+"Hulpmiddelen al in gebruik?"
+"Wave-formaat niet ondersteund"
+"Ongeldige parameter"
+"Geen samenvoeging?"
+"Niet genoeg geheugen"
+"Kon geen Direct Sound object aanmaken"
+"Kon algemeen niveau niet instellen in Direct Sound"
+"Primaire Direct Sound buffer niet aangemaakt"
+"Primaire Direct Sound buffer kon niet worden ingesteld op nieuw formaat"
+
+TAG "archive_error"
+"Decimaalreferentie geschreven voor decimaal"
+"Decimaalreferentie gelezen voor decimaal"
+"Onverwacht einde van invoer"
+"Onbekende uitzondering bij schrijven van archief"
+"Onbekende uitzondering bij lezen van archief"
+"Decimaalreferentie twee keer geschreven"
+"Bezig met lezen van een archief dat door een incompatibele versie van het programma is geschreven"
+"Bezig met wereld opslaan alvorens te laden"
+"Fout bij wissen van wereld"
+"Ongeldige wereld-index"
+"De backup-wereld wordt nu gelezen"
+"Interne fout. Probeer twee keer te laden"
+
+TAG "creature_error"
+"Kon genome van Creature niet uitdrukken\n%s"
+"Bepaal hetzelfde aantal \"agentcategorieën\"\nals \"agentklasseringen\" in de catalogus."
+
+TAG "genome_error"
+"Het volgende genome-bestand kon niet worden gevonden:\n%s"
+"Het volgende genome-bestand kon niet worden geladen:\n%s"
+"Het volgende genome-bestand kon niet worden geschreven:\n%s"
+"Initialisatie genome mislukt:\n%s (%s)"
+"Nul neuronen in kwab"
+"Teveel neuronen in kwab"
+"Verbinding met kwab ongeldig"
+"Geen neuronen gegeven om verbinding mee te maken"
+"Verbindingen zijn geheel vrijwillig"
+"Geen van beide verbindingen kan worden afgedwongen voor het migreren van dendrieten"
+"Aantal verbindingen kan niet nul zijn voor niet-migrerende dendrieten"
+"Kon kwab van stroom niet lezen."
+"Kon tractus van stroom niet lezen."
+
+TAG "genome_too_long_gene"
+"Onverwacht lange gensoort tijdens combineren (%d lang, %d max)"
+
+TAG "genome_old_dna"
+"Creatures 3 kan alleen laden in heel oude Shee DNA, uit de tijd dat ze Albia hebben verlaten.  Andere DNA werkt niet."
+
+TAG "control_break"
+"Hiermee wordt de Creatures Engine\nafgesloten zonder wijzigingen op te slaan."
+
+TAG "unexpected_suicide"
+"Een agent pleegde zelfmoord zonder dat iemand het merkte.\nMeld dit aan de afdeling Sociale Diensten van de Creatures Labs."
+
+TAG "agent_profiler"
+"Profieltikken"
+"Gemiddelde PACE"
+"Totale gemiddelde tijd besteed aan agent-updates"
+
+TAG "agent_profiler_columns"
+"Klasseringen"
+"Bijwerkingen"
+"Aantal agenten" # Updates / Profile Tick
+"Tijd / elke agent" # Time / Update
+"Tijd / alle agenten" # Time / Profile Tick
+
+TAG "invalid_map_error"
+"Ongeldige kaartpositie vanwege wijziging afbeeldingsvak...\nAfbeeldingsvak voorheen:\t%d x %d\nAfbeeldingsvak nu:\t\t%d x %d\n"
+
+TAG "Pray System File Extensions"
+"creature"
+"agent"
+"agents"
+"blueprint"
+"family"
+
+TAG "creature_head_sprite_out_of_range"
+"Probeerde hoofdsprite-index %d te laden terwijl alleen %d was ingelezen.\nUitdrukking normaal."
+"Probeerde hoofdsprite-index %d te laden terwijl alleen %d was ingelezen.\nUitdrukkingsafwijking: %d, Expression: %d, SetSize: %d, Eyes: %d, Eye offset: %d, My view: %d"    #TRANSLATOR'S NOTE - please translate only up to and including the words Expression offset
+
+TAG "memory_out"
+"Geheugen is opgeraakt - start opnieuw op, maak wat ruimte vrij op het systeemstation, en voer Creatures 3 opnieuw uit"

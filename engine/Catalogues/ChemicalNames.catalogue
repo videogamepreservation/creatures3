@@ -1,0 +1,344 @@
+# ChemicalNames.catalogue
+#
+# Catalogue file - What each chemical is called
+#
+# Created 24Mar99 Francis Irving
+# Modified 19th August 1999 by Helen Burchmore
+
+ARRAY "drive_chemical_numbers" 20
+"148"
+"149"
+"150"
+"151"
+"152"
+
+"153"
+"154"
+"155"
+"156"
+"157"
+
+"158"
+"159"
+"160"
+"161"
+"162"
+
+# navigation drives
+"199"
+"200"
+"201"
+"202"
+"203"
+
+
+ARRAY "chemical_names" 256
+
+# chemical 0
+"<error - chemical id 0>"	# there is no chemical zero - it's used internally as a placeholder
+"Lactate"
+"Pyruvate"
+"Glucose"
+"Glycogen"
+"Starch"
+"Fatty Acid"
+"Cholesterol"
+"Triglyceride"
+"Adipose Tissue"
+
+# chemical 10
+"Fat"
+"Muscle Tissue"
+"Protein"
+"Amino Acid"
+"14"
+"15"
+"16"
+"Downatrophin"
+"Upatrophin"
+"19"
+
+# chemical 20
+"20"
+"21"
+"22"
+"23"
+"Dissolved carbon dioxide"
+"Urea"
+"Ammonia"
+"27"
+"28"
+"Air"
+
+# chemical 30
+"Oxygen"
+"31"
+"32"
+"Water"
+"Energy"
+"ATP"
+"ADP"
+"37"
+"38"
+"Arousal Potential"
+
+# chemical 40
+"Libido lowerer"
+"Opposite Sex Pheromone"
+"42"
+"43"
+"44"
+"45"
+"Oestrogen"
+"47"
+"Progesterone"
+"49"
+
+# chemical 50
+"50"
+"51"
+"52"
+"Testosterone"
+"Inhibin"
+"55"
+"56"
+"57"
+"58"
+"59"
+
+# chemical 60
+"60"
+"61"
+"62"
+"63"
+"64"
+"65"
+"Heavy Metals"
+"Cyanide"
+"Belladonna"
+"Geddonase"
+
+# chemical 70
+"Glycotoxin"
+"Sleep toxin"
+"Fever toxin"
+"Histamine A"
+"Histamine B"
+"Alcohol"
+"76"
+"77"
+"ATP Decoupler"
+"Carbon monoxide"
+
+# chemical 80
+"Fear toxin"
+"Muscle toxin"
+"Antigen 0"
+"Antigen 1"
+"Antigen 2"
+"Antigen 3"
+"Antigen 4"
+"Antigen 5"
+"Antigen 6"
+"Antigen 7"
+
+# chemical 90
+"90"
+"91"
+"Medicine one"
+"Anti-oxidant"
+"Prostaglandin"
+"EDTA"
+"Sodium thiosulphite"
+"Arnica"
+"Vitamin E"
+"Vitamin C"
+
+# chemical 100
+"Antihistamine"
+"101"
+"Antibody 0"
+"Antibody 1"
+"Antibody 2"
+"Antibody 3"
+"Antibody 4"
+"Antibody 5"
+"Antibody 6"
+"Antibody 7"
+
+# chemical 110
+"110"
+"111"
+"Anabolic steroid"
+"Pistle"
+"Insulin"
+"Glycolase"
+"Dehydrogenase"
+"Adrenalin"
+"Grendel nitrate"
+"Ettin nitrate"
+
+# chemical 120
+"120"
+"121"
+"122"
+"123"
+"Activase"
+"Life"
+"126"
+"Injury"
+"Stress"
+"Sleepase"
+
+# chemical 130
+"130"
+"Pain backup"
+"Hunger for protein backup"
+"Hunger for carb backup"
+"Hunger for fat backup"
+"Coldness backup"
+"Hotness backup"
+"Tiredness backup"
+"Sleepiness backup"
+"Loneliness backup"
+
+# chemical 140
+"Crowded backup"
+"Fear backup"
+"Boredom backup"
+"Anger backup"
+"Sex drive backup"
+"Comfort backup"
+"146"
+"147"
+"Pain"
+"Hunger for protein"
+
+# chemical 150
+"Hunger for carbohydrate"
+"Hunger for fat"
+"Coldness"
+"Hotness"
+"Tiredness"
+"Sleepiness"
+"Loneliness"
+"Crowded"
+"Fear"
+"Boredom"
+
+# chemical 160
+"Anger"
+"Sex drive"
+"Comfort"
+"163"
+"164"
+"Ca smell 0 (sound)"
+"CA smell 1 (light)"
+"CA smell 2 (heat)"
+"Ca smell 3 (water)"
+"CA smell 4 (nutrient)"
+
+# chemical 170
+"CA smell 5 (water)"
+"CA smell 6 (protein)"
+"CA smell 7 (carbohydrate)"
+"CA smell 8 (fat)"
+"CA smell 9 (flowers)"
+"CA smell 10 (machinery)"
+"CA smell 11"
+"CA smell 12 (Norn)"
+"CA smell 13 (Grendel)"
+"CA smell 14 (Ettin)"
+
+# chemical 180
+"CA smell 15 (Norn home)"
+"CA smell 16 (Grendel home)"
+"CA smell 17 (Ettin home)"
+"CA smell 18"
+"CA smell 19"
+"185"
+"186"
+"Stress (H4C)"
+"Stress (H4P)"
+"Stress (H4F)"
+
+# chemical 190
+"Stress (Anger)"
+"Stress (Fear)"
+"Stress (Pain)"
+"Stress (Sleep)"
+"Stress (Tired)"
+"Stress (Crowded)"
+"196"
+"197"
+"Brain chemical 1"
+"Up"
+
+# chemical 200
+"Down"
+"Exit"
+"Enter"
+"Wait"
+"Reward"
+"Punishment"
+"Brain chemical 9"
+"Brain chemical 10"
+"Brain chemical 11"
+"Brain chemical 12"
+
+# chemical 210
+"Brain chemical 13"
+"Brain chemical 14"
+"Pre-REM sleep"
+"REM sleep"
+"214"
+"215"
+"216"
+"217"
+"218"
+"219"
+
+# chemical 220
+"220"
+"221"
+"222"
+"223"
+"224"
+"225"
+"226"
+"227"
+"228"
+"229"
+
+# chemical 230
+"230"
+"231"
+"232"
+"233"
+"234"
+"235"
+"236"
+"237"
+"238"
+"239"
+
+# chemical 240
+"240"
+"241"
+"242"
+"243"
+"244"
+"245"
+"246"
+"247"
+"248"
+"249"
+
+
+# chemical 250
+"250"
+"251"
+"252"
+"253"
+"254"
+"255"

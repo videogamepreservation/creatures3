@@ -1,0 +1,3 @@
+// CustomHeap.h
+
+int GetCustomHeapSize();

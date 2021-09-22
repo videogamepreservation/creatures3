@@ -1,0 +1,189 @@
+# System.catalogue
+#
+# Catalogue file - Error messages used by SYSTEM subsystem
+#
+# Created 29Apr99 Francis
+
+#TRANSLATOR'S NOTE - please consult Creatures Adventures system text for many entries
+
+
+TAG "system_title"
+"Moteur de Creatures"
+"Moteur"
+"Elimination de l'agent activée"
+
+TAG "display_engine"
+"Le moteur d'affichage risque de se fermer car le fichier d'arrière-plan suivant n'a pas été créé :\n%s"
+"La galerie sprite suivante n'a pas été créée :\n%s"
+"Impossible de trouver la galerie sprite suivante :\n%s"
+"Une erreur a été détectée par le moteur d'affichage ; cela résulte peut-être d'un erreur antérieure plus générale. Veuillez redémarrer le moteur. "
+"Une erreur a été détectée lors de la préparation de l'arrière plan. Veuillez redémarrer le moteur."
+"Une erreur a été détectée lors de la préparation des sprites. Veuillez redémarrer le moteur."
+"Il n'y a pas d'entrée de registre pour le répertoire Image"
+"Vous n'avez pas fourni de nom de galerie !"
+"Conversion des graphismes en "
+"Le jeu n'a pu être lancé en raison d'une erreur de DirectDraw."
+"La galerie sprite suivante n'a pas été créée :\n%s\ndes problèmes peuvent survenir ultérieurement."
+"Impossible de trouver la galerie sprite suivante :\n%s"
+"Le type de fichier de la galerie sprite suivante est inconnu : \n%s"
+"MapImage non créé"
+"Il manque la galerie sprite %s"
+"Galerie sprite non spécifiée"
+"Le fichier 'CreatureGallery' de votre répertoire principal est corrompu. Veuillez le supprimer avant de redémarrer le moteur."
+"La caméra à distance n'a pu être créée en raison d'une erreur de DirectDraw"
+"Avertissement : le fichier %s suivant comporte des bitmaps de résolution inférieure à %d par %d. Cela provoquera des problèmes dans le moteur physique si l'agent contient des attributs physiques."
+"Une affectation de base non valide %d a été installée pour la galerie sprite suivante %s"
+"Creatures 3 ne peut pas continuer : veuillez régler vos paramètres d'affichage sur '65536 couleurs (16 bits)'"
+"Pour éviter des problèmes de corruption d'écran en mode fenêtre, réglez vors paramètres d'affichage sur '35536 couleurs (16 bits)'"
+
+TAG "gallery_error"
+"Tentative d'affichage d'un sprite hors limite"
+"Avertissement : le fichier suivant %s est vide"
+"Le format du fichier suivant %s ne correspond pas au fichier sprite S16./ Il le prend pour un C16 !"
+
+TAG "map_error"
+"L'agent n'a pu être déplacé sur la carte"
+
+TAG "file_error"
+"Assurez-vous que le fichier suivant existe :\n%s\n Il devra peut-être être inscriptible "
+"Manipulation du fichier en cours"
+"Assurez-vous que le fichier suivant existe et est inscriptible :\n%s\n%s"
+"Le fichier suivant est de longueur nulle :\n%s"
+"Des problèmes ont été rencontrés lors de la création du fichier suivant :\n%s\n%s"
+"Erreur de fichier mappé de mémoire\n%s"
+
+TAG "app_error"
+"Creatures 3 semble déjà en cours d'exécution.\nSi ce n'est pas le cas, attendez un peu et réessayez.\nSi le problème persiste, essayez de redémarrer l'ordinateur."
+"Une erreur a été rencontrée lors de l'écriture du fichier utilisé par l'outil CAOS \n%s"
+
+TAG "app_cd_needed"
+"Pour pouvoir jouer, le disque Creatures 3 doit être inséré dans le lecteur CD-ROM.\nVeuillez insérer le CD-ROM Creatures 3 et réessayez."
+
+TAG "app_insufficient_disk_space"
+"Attention !\n\nVous ne disposez pas de suffisamment d'espace disque pour exécuter Creatures 3.\nVous avez besoin de 75 Mo d'espace libre sur le disque de votre système principal et sur le lecteur\n sur lequel vous avez installé le jeu.\n\nSouhaitez-vous tout de même exécuter le jeu ?"
+
+TAG "window_error"
+"Echec d'enregistrement de la classe de fenêtre"
+"Echec de passage en fenêtre principale"
+"Echec de création de l'interface externe.\nQuittez tous les programmes en relation avec le jeu\net réessayez. En cas de nouvel échec, redémarrez l'ordinateur."
+"Impossible de créer un chemin pour le serveur"
+"Erreur fatale de MultiMedia Timer"
+"Impossible de démarrer MultiMedia Timer"
+"Impossible de démarrer le chemin d'accès des messages"
+
+TAG "runtime_error"
+"Ignorer complètement"
+"&Arrêter l'agent"
+"&Tuer l'agent"
+"&Déplacer caméra vers agent"
+"Erreur de durée d'exécution de l'agent"
+"identité unique"
+"&Mettre le jeu en pause"
+"script"
+"A&rrêter le script"
+
+TAG "runtime_error_log"
+"\nErreur de durée de l'exécution de l'agent :"
+"Action : arrêter l'agent"
+"Action : tuer l'agent"
+"Action : mettre le jeu en pause"
+"Action : ignorer"
+"Action : élimination de l'agent"
+"Action : arrêter le script"
+
+TAG "script_error"
+"OK"
+"Impossible d'installer le script"
+"dans \nscriptorium (l'ancien script est peut-être utilisé ?)"   #TRANSLATOR'S NOTE - DO NOT translate the word scriptorium
+"RECYCLE"
+"%s"
+"Erreur : le format correct est \"scrp <famille> <genre> <espèce> <événement>\""
+"Nouvelle requête inattendue"
+
+TAG "sound_error"
+"Le fichier suivant n'existe pas :\n%s"
+"Tous les fichiers n'ont pu être modifiés ! Impossible de trouver :\n%s"
+"Inconnu"
+"Ressources déjà en cours d'utilisation ?"
+"Le Format Wave n'est pas pris en charge"
+"Paramètre non valide"
+"Pas d'ensembles ?"
+"Mémoire insuffisante"
+"Impossible de créer un objet Direct Sound"
+"Impossible d'installer un niveau coopératif dans Direct Sound"
+"Mémoire tampon principale de Direct Sound non créée"
+"La mémoire tampon principale de Direct Sound n'a pas pu être convertie au  nouveau format"
+
+TAG "archive_error"
+"Float reference written before float"
+"Float reference read before float"
+"Fin d'entrée inattendue"
+"Une erreur inconnue est survenue lors de l'écriture des archives"
+"Une erreur inconnue est survenue lors de la lecture des archives"
+"Référence de déplacement inscrite deux fois"
+"Tentative de lecture des archives par une version incompatible du programme"
+"Tentative de sauvegarde d'un monde avant le chargement d'un autre"
+"Erreur lors de la suppression d'un monde"
+"Index de monde non valide"
+"Le monde de sauvegarde va être lu"
+"Erreur interne : deux chargements ont été tentés"
+
+TAG "creature_error"
+"Impossible d'exprimer le génome de la créature\n%s"
+"Veuillez spécifier le même nombre de \"Catégories d'agents\"\nque de \"classifications d'agents\" dans le catalogue."
+
+TAG "genome_error"
+"Le fichier de génome suivant n'a pu être trouvé :\n%s"
+"Le fichier de génome suivant n'a pu être chargé :\n%s"
+"Le fichier de génome suivant n'a pu être enregistré :\n%s"
+"Echec de l'initialisation du génome :\n%s (%s)"
+"Aucun neurone dans le lobe"
+"Trop de neurones dans le lobe"
+"Connexion au lobe non valide"
+"Impossible de se connecter à un neurone"
+"Les connexions sont totalement spontanées"
+"Les deux connexions ne peuvent être limitées aux dentrites migratoires"
+"Pour les dentrites non migratoires, le nombre de connexions doit être supérieur à zéro"
+"Failed to read lobe from stream."
+"Failed to read tract from stream."
+
+TAG "genome_too_long_gene"
+"Type de gène d'une longueur inattendue lors de l'enjambement (%d de long, %d max)"
+
+TAG "genome_old_dna"
+"Creatures 3 ne peut charger que l'ancien ADN des Shees, lorsqu'ils ont quitté Albia. Aucun autre ADN ne fonctionne."
+
+TAG "control_break"
+"Vous êtes sur le point de quitter le moteur de Creatures \n sans sauvegarder les modifications."
+
+TAG "unexpected_suicide"
+"Un agent s'est suicidé mais personne ne s'en est aperçu.\nVeuillez en informer le service social de Creatures Labs."
+
+TAG "agent_profiler"
+"Tic-tacs de profil"
+"PACE moyen"
+"Moyenne totale de temps passé sur les mises à jour des agents"
+
+TAG "agent_profiler_columns"
+"Classification"
+"Mises à jour"
+"Nombre d'agents" # Updates / Profile Tick
+"Temps / Chaque agent" # Time / Update
+"Temps / Tous les agents" # Time / Profile Tick
+
+TAG "invalid_map_error"
+"Position de carte non valide en raison d'un changement de zone de délimitation... \nZone de délimitation précédente : \t%d x %d\nZone de délimitation actuelle :\t\t%d x %d\n"
+
+TAG "Pray System File Extensions"
+"creature"
+"agent"
+"agents"
+"blueprint"
+"family"
+
+TAG "creature_head_sprite_out_of_range"
+"Tentative de passer à l'index de sprite principal %d alors que %d seulement ont été mis en mémoire.\nExpression normale."
+"Tentative de passer à l'index de sprite principal %d alors que %d seulement ont été mis en mémoire.\nDécalage d'expression : %d, Expression: %d, SetSize: %d, Eyes: %d, Eye offset: %d, My view: %d"    #TRANSLATOR'S NOTE - please translate only up to and including the words Expression offset
+
+TAG "memory_out"
+"Manque de mémoire : veuillez redémarrer l'ordinateur, libérer de l'espace disque et exécuter à nouveau Creatures 3."
